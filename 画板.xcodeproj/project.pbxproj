@@ -13,6 +13,8 @@
 		E2102CAE1FE101BC00F7CF83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2102CAC1FE101BC00F7CF83 /* Main.storyboard */; };
 		E2102CB01FE101BC00F7CF83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2102CAF1FE101BC00F7CF83 /* Assets.xcassets */; };
 		E2102CB31FE101BC00F7CF83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2102CB11FE101BC00F7CF83 /* LaunchScreen.storyboard */; };
+		E2102CBC1FE1056700F7CF83 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2102CBB1FE1056700F7CF83 /* DrawView.m */; };
+		E2102CBF1FE10B1F00F7CF83 /* MyUIBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = E2102CBE1FE10B1F00F7CF83 /* MyUIBezierPath.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		E2102CAF1FE101BC00F7CF83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2102CB21FE101BC00F7CF83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2102CB41FE101BC00F7CF83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2102CBA1FE1056700F7CF83 /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		E2102CBB1FE1056700F7CF83 /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
+		E2102CBD1FE10B1F00F7CF83 /* MyUIBezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyUIBezierPath.h; sourceTree = "<group>"; };
+		E2102CBE1FE10B1F00F7CF83 /* MyUIBezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUIBezierPath.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,10 @@
 				E2102CB11FE101BC00F7CF83 /* LaunchScreen.storyboard */,
 				E2102CB41FE101BC00F7CF83 /* Info.plist */,
 				E2102CA31FE101BC00F7CF83 /* Supporting Files */,
+				E2102CBA1FE1056700F7CF83 /* DrawView.h */,
+				E2102CBB1FE1056700F7CF83 /* DrawView.m */,
+				E2102CBD1FE10B1F00F7CF83 /* MyUIBezierPath.h */,
+				E2102CBE1FE10B1F00F7CF83 /* MyUIBezierPath.m */,
 			);
 			path = "画板";
 			sourceTree = "<group>";
@@ -150,8 +160,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2102CBF1FE10B1F00F7CF83 /* MyUIBezierPath.m in Sources */,
 				E2102CAB1FE101BC00F7CF83 /* ViewController.m in Sources */,
 				E2102CA81FE101BC00F7CF83 /* AppDelegate.m in Sources */,
+				E2102CBC1FE1056700F7CF83 /* DrawView.m in Sources */,
 				E2102CA51FE101BC00F7CF83 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

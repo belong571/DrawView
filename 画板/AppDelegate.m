@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  画板
 //
-//  Created by zhangyoujiang on 2017/12/13.
+//  Created by zyj on 2017/12/13.
 //  Copyright © 2017年 ittest. All rights reserved.
 //
 

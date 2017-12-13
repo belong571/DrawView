@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MyUIBezierPath.h
 //  画板
 //
 //  Created by zyj on 2017/12/13.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-
+@interface MyUIBezierPath : UIBezierPath
+@property(nonatomic,strong) UIColor *lineColor;
 @end
-
